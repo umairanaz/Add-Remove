@@ -1,0 +1,56 @@
+html body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, pink, lightgreen);
+    margin: 20px;
+}
+
+h1{margin-top: 5%;
+    text-align: center;
+    font-style: italic;
+    color: purple;
+    font-size: 40px;
+}
+input{margin-top: 20%;
+    height: 5vh;
+    width: 50vw;
+    margin-left: 110%;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+ul{
+font-size: 30px;
+}
+button{margin-top: 20px;
+    border: 2px solid;
+margin-left: 45%;
+    width: 10vw;
+    height: 5vh;
+    font-size: 20px;
+}
+#Add{display: flex;
+    align-items: center; 
+       justify-content: space-between;
+
+
+}
+#remove svg{ 
+width: 20px;}
+#remove{
+    display: flex;
+align-items: center; 
+   justify-content: space-between;
+}
+#Add:hover{
+    background-color: green ;
+}
+#remove:hover{
+    background-color:red ;
+}
+
+.parent{ 
+    width: 20vw;
+    height: 20vh;
+}
